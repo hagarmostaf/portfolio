@@ -1,0 +1,478 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #03011d;
+}
+.navbar {
+    width: 1360px;
+    height: 80px;
+    background-color: #16151A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px 160px;
+}
+.logo {
+    color: #7D5DF4;
+    font-size: 22px;
+    font-weight: bold;
+}
+.nav-links {
+    display: flex;
+    gap: 40px;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.nav-links a.active {
+    color: #7D5DF4;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 136px;
+}
+
+.hero-text {
+    max-width: 435px;
+    color: white;
+}
+.hero-text h1 {
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 100%;
+    margin: 0;
+    color: white;
+}
+.hero-text p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100%;
+    margin-top: 20px;
+}
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-primary {
+    background-color: #7D5DF4;
+    color: white;
+    width: 160px;
+    height: 48px;
+}
+.btn-secondary {
+    border: 2px solid #7D5DF4;
+    color: #7D5DF4;
+    width: 159px;
+    height: 48px;
+    padding: 12px 34px;
+}
+.hero-image img {
+    width: 400px;
+    border-radius: 50%;
+    background-color: #7D5DF4;
+    padding: 20px;
+}
+.divider {
+    width: 1360px;
+    height: 128px;
+    background-color: #080221;
+    margin: 0 auto;
+}
+.about-section {
+    padding: 50px 136px;
+}
+.about-section h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #7D5DF4;
+}
+.about-section p {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+.experience {
+    display: flex;
+    align-items: center;
+    padding: 50px 136px;
+}
+.experience .years {
+    font-size: 96px;
+    font-weight: 600;
+    color: #7D5DF4;
+    width: 127px;
+    height: 144px;
+    margin-right: 20px;
+}
+.experience .description {
+    font-size: 24px;
+    font-weight: 500;
+    width: 920px;
+    height: 72px;
+    color: white;
+}
+ /* .skills {
+            display: flex;
+            gap: 20px;
+            padding: 50px 136px;
+        }
+        .skill-box {
+            width: 200px;
+            height: 200px;
+            background-color: gray;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+        }
+        .skill-box.active {
+            background-color: #7D5DF4;
+            color: white;
+        }
+        .skill-box img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+        .skill-box p {
+            font-size: 16px;
+            font-weight: bold;
+        } */
+
+        /* .skills {
+            display: flex;
+            gap: 20px;
+            padding: 50px 136px;
+            justify-content: center;
+        }
+        .skill-box {
+            width: 220px;
+            height: 220px;
+            background-color: gray;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            gap: 5px;
+        }
+        .skill-box.active {
+            background-color: #7D5DF4;
+            color: white;
+        }
+        .skill-box img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+        .skill-box p {
+            font-size: 16px;
+            font-weight: bold;
+            opacity: 0.5;
+            margin: 0px;
+            padding: 0px;
+        } */
+        .skills {
+            display: flex;
+            gap: 20px;
+            padding: 50px 136px;
+            justify-content: center;
+        }
+        .skill-box {
+            width: 220px;
+            height: 220px;
+            background-color: gray;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            gap: 10px; 
+        }
+        .skill-box.active {
+            background-color: #7D5DF4;
+            color: white;
+        }
+        
+        .skill-icons {
+            width: 220px;
+            height: 220px;
+            background-color: gray;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            gap: 10px;
+        }
+        .skill-icons img {
+            width: 40px;
+            height: 40px;
+            margin: -13px; 
+            transform: translateX(-2px); 
+        }
+        
+        .skill-box img {
+            width: 55px; 
+            height: 55px;
+        }
+        
+        .skill-box p {
+            font-size: 16px;
+            font-weight: bold;
+            opacity: 0.7;
+            margin: 0px;
+            padding: 0px;
+            text-align: center;
+        }
+        
+        
+        .services {
+            padding: 50px 136px;
+        }
+        .services h2 {
+            font-size: 32px;
+            font-weight: 600;
+            color: #7D5DF4;
+            width: 310px;
+            height: 48px;
+            margin: auto;
+        }
+        .service-boxes {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .service-box {
+            width: 300px;
+            height: 250px;
+            background-color: #16151A;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid #7D5DF4;
+            padding: 20px;
+        }
+        .service-box p {
+            font-size: 16px;
+            font-weight: 500;
+            opacity: 0.5;
+            color: white;
+            margin-top: 10px;
+        }
+        .service-box h3 {
+            font-size: 18px;
+            font-weight: bold;
+            color: #7D5DF4;
+            margin-top: 10px;
+        }
+        .service-box img {
+            width: 50px;
+            height: 50px;
+        }
+        
+
+        /* 
+         */
+         .projects {
+            padding: 50px 136px;
+        }
+        .projects h2 {
+            font-size: 32px;
+            font-weight: 600;
+            color: #A084E8;
+            margin-bottom: 20px;
+        }
+        .project-boxes {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .project-box {
+            width: 320px;
+            height: 400px;
+            background-color: #16151A;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            border: 2px solid #A084E8;
+        }
+        .project-box img {
+            width: 280px;
+            height: 180px;
+            border-radius: 8px;
+        }
+        .project-box h3 {
+            font-size: 24px;
+            font-weight: 600;
+            color: #A084E8;
+        }
+        .project-box p {
+            font-size: 16px;
+            font-weight: 500;
+            color: white;
+            opacity: 0.8;
+            margin: 10px 0;
+        }
+        .buttons {
+            display: flex;
+            gap: 10px;
+        }
+        .btn-live, .btn-github {
+            width: 145px;
+            height: 43px;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 500;
+            cursor: pointer;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .btn-live {
+            background-color: #A084E8;
+            color: white;
+        }
+        .btn-github {
+            border: 2px solid #A084E8;
+            color: #A084E8;
+            background: transparent;
+        }
+
+        /*  */
+        
+
+        .contact-container {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+        }
+        .contact-left, .contact-right {
+            flex: 1;
+        }
+        .contact-left {
+            text-align: left;
+            margin: 110px;
+        }
+        .contact-left h2 {
+            font-size: 32px;
+            font-weight: 600;
+            color: #A084E8;
+            margin-bottom: 10px;
+        }
+        .contact-left p {
+            font-size: 16px;
+            font-weight: 500;
+            opacity: 0.8;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+        .social-icons {
+            display: flex;
+            gap: 15px;
+            color: #7562E0;
+        }
+        .social-icons img {
+            width: 32px;
+            height: 32px;
+            cursor: pointer;
+        }
+        .contact-right {
+            text-align: left;
+            margin: 110px; 
+        }
+        .contact-right h3 {
+            font-size: 24px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            width: 472px;
+            border-radius: 8px;
+            padding: 12px;
+            background: rgba(255, 255, 255, 0.1);
+            border: none;
+            color: #E0E0E0;
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+        .contact-form textarea {
+            height: 98px;
+        }
+        .contact-form input::placeholder,
+        .contact-form textarea::placeholder {
+            color: rgba(255, 255, 255, 0.5);
+        }
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            outline: 2px solid #A084E8;
+        }
+        .send-button {
+            width: 174px;
+            height: 50px;
+            border-radius: 8px;
+            background-color: #A084E8;
+            color: white;
+            font-size: 18px;
+            font-weight: 500;
+            border: none;
+            cursor: pointer;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            opacity: 0.5;
+            color: #ffffff;
+            margin: 100px;
+        }
+        .footer-text {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 100%;
+        }
+        
+        .social-icons {
+            display: flex;
+            gap: 15px;
+            color: #7562E0;
+            ;
+        }
+        .social-icons img {
+            width: 32px;
+            height: 32px;
+            cursor: pointer;
+        }
+
+
+
